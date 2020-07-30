@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'PingFangJianTi';
+    src: url('../font/PingFangXiTi.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FiraCodeLight';
+    src: url('../font/FiraCode-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VeraMono';
+    src: url('../font/VeraMono.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DSM';
+    src: url('../font/Droid Sans Mono.ttf');
+    font-weight: initial;
+    font-style: normal;
+}
+/*
+字体大小
+ */
+.fs-10 {
+    font-size: 10px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+/*
+字体高度
+ */
+.lh-10{
+    line-height: 10px;
+}
+.lh-16{
+    line-height: 16px;
+}
+.lh-20{
+    line-height: 20px;
+}
+.lh-24{
+    line-height: 24px;
+}
+.lh-30{
+    line-height: 30px;
+}
+.lh-32{
+    line-height: 32px;
+}
+.lh-36{
+    line-height: 36px;
+}
+.lh-40{
+    line-height: 40px;
+}
+.lh-48{
+    line-height: 48px;
+}
+.lh-50{
+    line-height: 50px;
+}
+.lh-60{
+    line-height: 60px;
+}
+body, #app{
+    font-family: FiraCodeLight, VeraMono, PingFangJianTi;
+    font-size: 14px;
+}
+.left{
+    flex: none;
+    width: 60px;
+    height: 100vh;
+    border-right: 1px dashed #666666;
+}
+.left > .logo {
+    padding: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 50%;
+}
+.left > .logo > img{
+    height: 40px;
+}
+.left > .menu-item {
+    cursor: pointer;
+    height: 40px;
+    padding:10px 5px;
+    line-height: 20px;
+    text-align: center;
+    transition: .3s;
+}
+.left > .menu-item:hover{
+    background: #DDDDDD;
+}
+a{
+    text-decoration:none;
+}
+
+.pagecenter{
+    flex: none;
+    /*background: #dddddd;*/
+    width: 300px;
+    height: 100vh;
+}
